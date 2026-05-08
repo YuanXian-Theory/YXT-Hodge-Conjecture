@@ -1,34 +1,22 @@
-# YuanXian Theory: Constructive Proof of the Hodge Conjecture
+# YXT-Hodge-Conjecture
 
-**Preprint Version** | May 8, 2026
+**YuanXian Theory: A Constructive Proof of the Hodge Conjecture**
 
-This repository contains the computational and formal verification materials for the paper:
+Preprint • May 8, 2026 • Author: Zhenyuan Acharya
 
-**"YuanXian Theory: A Constructive Proof of the Hodge Conjecture"** by Zhenyuan Acharya.
+This repository contains the computational verification (SageMath) and formalization (Lean 4) materials accompanying the paper.
 
-## Overview
+## Key Features
+- High-dimensional flat torus \( T^{64} \) geometry
+- Hodge Laplacian operator implementation
+- TCSC involution symmetry verification
+- Automated test pipeline
 
-We present a constructive approach to the Hodge Conjecture using the YD-T^{64} framework and TCSC symmetry on the 64-dimensional torus.
-
-## Repository Structure
-
-- `sage/` — SageMath computational verification
-- `lean/` — Lean 4 formalization
-- `data/` — Verification results
-- `run_verification.py` — Main verification pipeline
-
-## Reproduction Steps
+## Quick Start
 
 ```bash
-# 1. Clone repository
-git clone [https://github.com/yuanxian-theory/hodge-conjecture-proof.git](https://github.com/yuanxian-theory/hodge-conjecture-proof.git)
-cd hodge-conjecture-proof
+git clone [https://github.com/yuanxian-theory/YXT-Hodge-Conjecture.git](https://github.com/yuanxian-theory/YXT-Hodge-Conjecture.git)
+cd YXT-Hodge-Conjecture
 
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Run SageMath verification
-sage -python run_verification.py --all
-
-# 4. Lean 4 formal verification
-cd lean && lake build
+sage -python run_verification.py --full
