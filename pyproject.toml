@@ -1,0 +1,11 @@
+[project]
+name = "yxt-hodge"
+version = "1.0.0"
+description = "Computational verification for YuanXian Theory's Hodge Conjecture proof"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Zhenyuan Acharya"}]
+
+[tool.setuptools]
+packages = ["sage"]
