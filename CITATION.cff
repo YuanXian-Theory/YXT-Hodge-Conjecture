@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "YXT-Hodge-Conjecture: Computational and Formal Verification for YuanXian Theory's Proof of the Hodge Conjecture"
+authors:
+  - family-names: Acharya
+    given-names: Zhenyuan
+    orcid: "0009-0009-3690-569X"
+date-released: "2026-05-08"
+version: "1.0.0"
+doi: "10.5281/zenodo.xxxxxxx"
+repository-code: "https://github.com/yuanxian-theory/YXT-Hodge-Conjecture"
+license: MIT
+keywords:
+  - Hodge Conjecture
+  - YuanXian Theory
+  - TCSC
+  - T64
+  - SageMath
+  - Lean 4
