@@ -1,0 +1,38 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# SageMath
+*.sage.py
+.sagemath/
+
+# Data & Results
+*.json
+*.csv
+*.h5
+data/*.json
+!data/verification_results.json
+
+# Lean
+lean/build/
+lean/.lake/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
